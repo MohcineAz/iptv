@@ -3,12 +3,11 @@ import Navbar from './Navbar'
 import Button from './Button'
 import Tool from './Tool'
 import hero from '../assets/images/hero.png'
-import RoundBtn from './RoundBtn'
 import yt from '../assets/images/youtube.png'
 
 function Hero() {
   return (
-    <section className='bg-[#00050E] bg-gradient-to-r from-[#00050E] from-10% via-[#8000FF] via-100% to-[#AD00FF] to-70% overflow-hidden relative px-8 py-8'>
+    <section className='bg-[#00050E] bg-gradient-to-r from-[#00050E] from-30% via-[#8000FF] via-100% to-[#AD00FF] to-80% overflow-hidden relative px-8 py-8'>
       <Navbar />
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
         {/* Brand info */}
