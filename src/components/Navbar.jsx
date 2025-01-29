@@ -40,7 +40,8 @@ function Navbar() {
             {
                 NavbarMenu.map((menu) => (
                     <li key={menu.id} className='cursor-pointer'>
-                        <a href={menu.link}>{menu.title}</a>
+                        <a className= 'text-white hover:text-[#60EFFE] inline-block py-2 px-3 relative group' href={menu.link}>{menu.title}
+                        <div className='w-6 h-1 bg-[#60EFFE] mt-4 rounded-full left-1/2 -translate-x-1/2 top-1/2 bottom-0 group-hover:block hidden absolute'></div></a>
                     </li>
                 ))
             }
