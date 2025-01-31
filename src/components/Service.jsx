@@ -26,8 +26,8 @@ HD/ FHD/ 4K/ 8K`,
 
 function Service() {
   return (
-    <section className="bg-gradient-to-r from-[#0D1728] from-100% via-[#00050E52] via-30% to-[#0D1728] to-100% flex flex-col items-center">
-      <div className="container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-8 mx-auto justify-center items-center">
+    <section className="bg-gradient-to-r from-[#0D1728] from-100% via-[#00050E52] via-30% to-[#0D1728] to-100%">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 place-content-center place-items-center">
         {service.map((service) => (
           <div
             key={service.id}
