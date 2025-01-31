@@ -48,7 +48,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="try">
-        <Button text='Try now'/>
+        <Button className='bg-gradient-to-r from-[#0061FF] from-10% via-[#30FFF3] via-100% to-[#60EFFF] to-100%' text='Try now'/>
       </div>
     </nav>
   )

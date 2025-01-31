@@ -16,7 +16,7 @@ function Hero() {
                 Entertainment Experience</h1>
                 <p className='text-white'>Welcome to Streamify – your gateway to limitless entertainment. With our cutting-edge IPTV service, enjoy live TV channels and on-demand content for an unparalleled streaming experience. Elevate your entertainment journey with Streamify today!</p>
                 <div className="group-btn flex items-center gap-4">
-                    <Button text='Try now'/>
+                    <Button className='bg-gradient-to-r from-[#0061FF] from-10% via-[#30FFF3] via-100% to-[#60EFFF] to-100%' text='Try now'/>
                     <button className='border-2 border-white rounded-full w-10 h-10 flex items-center justify-center'>
                       <img src={yt} alt="" />
                     </button>
