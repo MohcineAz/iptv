@@ -4,7 +4,7 @@ import Button from './Button'
 function PricingCard({month, price, free, features}) {
   return (
     <section>
-      <div className='min-w-[300px] bg-[#0D1728] text-white rounded-3xl h-full text-center flex flex-col justify-between px-4 border-transparent hover:border-2 hover:border-amber-200 transition-all duration-300'>
+      <div className='min-w-[300px] bg-[#0D1728] text-white rounded-3xl h-full text-center flex flex-col justify-between px-4 border-transparent hover:border-2 hover:border-[#30FFF3] transition-all duration-300 hover:bg-[#00050E] group'>
        <h3 className='text-sm py-3'>{month}</h3>
        <p className='font-semibold text-2xl py-3'>{price}</p>
        <h3 className='text-sm py-3'>{free}</h3>
@@ -16,7 +16,7 @@ function PricingCard({month, price, free, features}) {
         }
        </ul>
        <div className='py-6 '>
-          <Button className='bg-white text-black' text='Subscribe'/>
+          <Button className='bg-white text-black group-hover:bg-[#30FFF3]' text='Subscribe'/>
        </div>
       
       </div>
