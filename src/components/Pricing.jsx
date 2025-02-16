@@ -36,7 +36,7 @@ function Pricing() {
       <div className="title text-white text-center text-2xl">
         Choose your plan
       </div>
-      <div className="py-12 grid gap-4 grid-cols-4 place-content-center place-items-center items-stretch">
+      <div className="py-12 grid gap-4 grid-cols-4 place-content-center place-items-center items-stretch relative">
         {
           pricingData.map((plan, index) =>
             <PricingCard key={index} {...plan} />
