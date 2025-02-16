@@ -14,7 +14,7 @@ const images = [
 
 function Movie() {
   return (
-    <section className="bg-gradient-to-r from-[#00050E] from-30% via-[#8000FF] via-100% to-[#AD00FF] to-80% py-12 px-8">
+    <section className="bg-[#00050E] py-12 px-8">
       <div className="flex flex-col items-center">
         <div className="title text-white text-center text-2xl">
           All in one package <br />
@@ -30,7 +30,7 @@ function Movie() {
             />
           ))}
         </div>
-        <Button className="bg-white mt-4" text="See more" />
+        <Button className="bg-white mt-8 hover:bg-[#30FFF3]" text="See more" />
       </div>
     </section>
   );

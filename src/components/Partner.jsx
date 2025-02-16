@@ -53,7 +53,8 @@ const channels = [
 ];
 function Partner() {
   return (
-    <section className="bg-gradient-to-r from-[#00050E] from-30% via-[#8000FF] via-100% to-[#AD00FF] to-80% py-12 px-8 grid place-items-center">
+    <section className=" py-12 px-8 grid place-items-center bg-[#00050E]">
+      {/* bg-gradient-to-r from-[#00050E] from-30% via-[#8000FF] via-100% to-[#AD00FF] to-80% */}
       <div className="grid grid-cols-2 md:grid-cols-6 sm:grid-cols-3 gap-4 justify-items-center items-center space-y-4">
         {channels.map((channel) => (
           <img key={channel.id} src={channel.src} alt="" className="mx-auto" />
