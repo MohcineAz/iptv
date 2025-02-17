@@ -31,7 +31,7 @@ function Footer() {
           </button>
         </div>
       </div>
-      <div className="text-white flex flex-col items-center">
+      <div className="text-white flex flex-col items-center md:items-start">
         <div className="flex flex-col">
           <h2 className="text-3xl font-semibold">About us</h2>
           <a href="" className="text-sm mt-3 font-thin hover:text-[#30FFF3]">
