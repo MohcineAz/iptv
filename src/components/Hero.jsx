@@ -32,8 +32,8 @@ function Hero() {
                 </div>
             </div>
         {/* Hero image */}
-        <div className="hero flex items-center">
-            <img className='absolute right-0' src={hero} alt="" />
+        <div className="hero flex items-center lg:block sm:hidden">
+            <img className='absolute right-0 lg:block sm:hidden' src={hero} alt="" />
         </div>
       </div>
     </section>
