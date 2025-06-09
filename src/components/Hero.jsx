@@ -14,7 +14,7 @@ function Hero() {
       <img src={bg1} className='absolute -top-3 -left-2' alt="" />
       <img src={bg2} className='absolute bottom-0 right-0 lg:w-[300px]' alt="" />
       <Navbar />
-      <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
+      <div className="container grid gl:grid-cols-2 md:grid-cols-2 min-h-[650px]">
         {/* Brand info */}
             <div className='flex flex-col justify-center py-14 md:py-0 relative z-20 space-y-10'>
                 <h1 className='text-white text-5xl font-extrabold'>Streamify: Elevate Your 
@@ -32,8 +32,8 @@ function Hero() {
                 </div>
             </div>
         {/* Hero image */}
-        <div className="hero flex items-center lg:block sm:hidden">
-            <img className='absolute right-0 lg:block sm:hidden' src={hero} alt="" />
+        <div className="hero flex items-center">
+            <img className='absolute right-0' src={hero} alt="" />
         </div>
       </div>
     </section>
